@@ -1,9 +1,9 @@
+user_pref("browser.in-content.dark-mode", )
 user_pref("browser.ctrlTab.recentlyUsedOrder", false);
 user_pref("browser.newtabpage.activity-stream.feeds.section.highlights", false);
 user_pref("browser.newtabpage.activity-stream.feeds.snippets", false);
 user_pref("browser.newtabpage.activity-stream.feeds.topsites", false);
 user_pref("browser.search.hiddenOneOffs", "Google,Bing,Amazon.com,DuckDuckGo,eBay,Twitter,Wikipedia (en)");
-
 user_pref("extensions.getAddons.showPane", false);
 user_pref("extensions.webservice.discoverURL", "");
 user_pref("dom.ipc.plugins.flash.subprocess.crashreporter.enabled", false);

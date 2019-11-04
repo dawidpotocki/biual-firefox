@@ -1,3 +1,4 @@
+user_pref("browser.in-content.dark-mode", )
 user_pref("keyword.enabled", false);
 user_pref("browser.ctrlTab.recentlyUsedOrder", false);
 user_pref("browser.search.hiddenOneOffs", "Google,Bing,Amazon.com,DuckDuckGo,Twitter,Wikipedia (en)");
