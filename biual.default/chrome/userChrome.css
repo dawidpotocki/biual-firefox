@@ -1,3 +1,87 @@
-.browserStack {
-  background-color: #323234 !important;
+:root {
+  --bg: #181b21;
+  --bg-alt: #252933;
+  --bg-alt-alt: #333845;
+  --bg-greenish: #182118;
+  --bg-redish: #271c1c;
+  --bg-blueish: #232c40;
+  --bg-yellowish: #212118;
+  --fg: #eee;
+  --fg-alt: #aaa;
+
+  --red: #cf5252;
+  --blue: #6f97b8;
+  --green: #92ad4a;
+  --yellow: #c9895b;
+  --magenta: #966bab;
+
+  --accent: var(--magenta);
+}
+
+
+/*
+ * Toolbar
+ */
+:root {
+  --toolbar-bgcolor: var(--bg-alt) !important;  /* focused tab background */
+  --toolbar-color: var(--fg) !important;  /* focused tab text */
+  --lwt-accent-color: var(--bg) !important;  /* unfocused tab background */
+  --lwt-text-color: var(--fg) !important;  /* unfocused tab text */
+  --tabs-navbar-shadow-size: 0px !important;
+
+  --lwt-toolbarbutton-icon-fill: var(--fg-alt) !important;
+  --lwt-toolbarbutton-icon-fill-attention: var(--accent) !important;
+  --lwt-toolbarbutton-active-background: var(--bg-alt-alt) !important;
+  --lwt-toolbarbutton-hover-background: var(--bg-alt-alt) !important;
+  --backbutton-border-color: transparent !important;
+
+  --chrome-content-separator-color: transparent !important;  /* bottom border */
+}
+
+
+/*
+ * URL bar
+ */
+:root {
+  --lwt-toolbar-field-color: var(--fg) !important;
+  --lwt-toolbar-field-background-color: var(--bg-alt) !important;
+  --lwt-toolbar-field-focus: var(--bg-alt-alt) !important;
+  --autocomplete-popup-background: var(--bg-alt-alt) !important;
+  --autocomplete-popup-highlight-background: var(--bg-alt) !important;
+  --autocomplete-popup-highlight-color: var(--fg) !important;
+
+}
+#urlbar:not(.megabar),
+#urlbar.megabar > #urlbar-background,
+#searchbar {
+  border: none !important;
+}
+#tabbrowser-tabs {
+  --tab-line-color: var(--accent) !important;
+  --tabs-border-color: var(--bg) !important;
+}
+
+
+/*
+ * Popups (like hamburger menu)
+ */
+:root {
+  --arrowpanel-background: var(--bg-alt) !important;
+  --arrowpanel-color: var(--fg) !important;
+  --arrowpanel-border-color: var(--bg-alt-alt) !important;
+  --autocomplete-popup-color: var(--fg) !important;
+  --panel-disabled-color: hsla(0, 0%, 100%, 0.5) !important;
+}
+
+
+/*
+ * Sidebar
+ */
+:-moz-any(#sidebar-box, #sidebar) {
+  --sidebar-background-color: var(--bg-alt) !important;
+  --sidebar-text-color: var(--fg) !important;
+}
+:-moz-any(.sidebar-panel, body) {
+  --lwt-sidebar-background-color: var(--bg-alt) !important;
+  --lwt-sidebar-text-color: var(--fg) !important;
 }
